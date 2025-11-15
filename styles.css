@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url(https://db.onlinewebfonts.com/c/3ab72b0d97a770d4a59077ac691252e9?family=Asgard+Trial+Regular);
+@font-face {
+  font-family: 'AsgardTrial';
+  src: url('./assets/fonts/AsgardTrial-Regular.woff2') format('woff2'),
+       url('./assets/fonts/AsgardTrial-Regular.woff') format('woff'),
+       url('./assets/fonts/AsgardTrial-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Asgard Trial Regular";
+    src: url("https://db.onlinewebfonts.com/t/3ab72b0d97a770d4a59077ac691252e9.eot");
+    src: url("https://db.onlinewebfonts.com/t/3ab72b0d97a770d4a59077ac691252e9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3ab72b0d97a770d4a59077ac691252e9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3ab72b0d97a770d4a59077ac691252e9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3ab72b0d97a770d4a59077ac691252e9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3ab72b0d97a770d4a59077ac691252e9.svg#Asgard Trial Regular")format("svg");
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel {
+  overflow-x: scroll;      /* enables horizontal scroll */
+  scrollbar-width: none;   /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;           /* Chrome, Safari, Opera */
+}
+
+body{
+ font-family: "DM Sans", sans-serif;
+}
+
+.carousel { 
+    scrollbar-width: none;           /* Firefox */
+    -ms-overflow-style: none;        /* IE/Edge legacy */
+    outline: none;                   /* no focus outline line */
+    border: 0; 
+  }
+  .carousel::-webkit-scrollbar { display: none; }
+
+
+  .gradient-text {
+  background: linear-gradient(90deg, #1d913f, #2dd4bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

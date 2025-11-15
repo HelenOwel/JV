@@ -246,7 +246,7 @@
 // end of sales script
 
 
-// carousel script
+// carousel script start
   const track = document.getElementById('carousel');
   const prev  = document.getElementById('prev');
   const next  = document.getElementById('next');
@@ -290,6 +290,9 @@
   });
 
 
+  // carousel ennd
+
+
   // top carousel
    const trace = document.getElementById('carouselTracker');
   const pre  = document.getElementById('prvBtn');
@@ -309,8 +312,8 @@
   function updateButtons(){
     const max = trace.scrollWidth - trace.clientWidth;
     const x   = trace.scrollLeft;
-    prev.disabled = x <= 2;
-    next.disabled = x >= max - 2;
+    pre.disabled = x <= 2;
+    nex.disabled = x >= max - 2;
   }
 
   pre.addEventListener('click', ()=>{
